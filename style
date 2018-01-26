@@ -1,0 +1,24 @@
+<a href="#" class="wsbutton">Button</a>
+<style>
+/*стиль кнопки по умолчанию*/
+a.wsbutton{
+    background: #3DB0F1;/*цвет фона*/
+    border-radius: 40px;/*радиус скругления*/
+    box-shadow: 0 -3px 0 0 hsla(0, 0%, 0%, 0.2) inset;/*внутрення тень*/
+    color: #ffffff;/*цвет текста*/
+    display: table;/*элемент таблицы*/
+    font-family: sans-serif;/*семейство шрифта*/
+    font-size: 14px;/*размер текста*/
+    font-weight: bold;/*жирный шрифт*/
+    line-height: 1.5;/*высота строки*/
+    padding: 10px 25px;/*внутрение отступы*/
+    margin:0 auto;/*выравнивание по центру*/
+    text-decoration: none;/*убераем подчеркивание*/
+    transition: all 0.3s;/*плавный эффект перехода*/
+}
+/*стили кнопки при наведении курсора мыши на нее*/
+a.wsbutton:hover {
+    background: #EB0563;/*другой цвет фона*/
+    box-shadow: 0 3px 0 0 hsla(0, 0%, 0%, 0.2) inset;/*расположение тени сверху*/
+}
+</style>
